@@ -1,0 +1,17 @@
+.element{
+    background-color: rgb(178, 18, 151);
+    font-family: Verdana, DejaVu Sans, Tahoma, sans-serif;
+    
+}
+#second{
+    color: rgb(96, 82, 223);
+    font-size: 36px;
+}
+.third{
+    font-size: 24px;
+}
+#forth{
+    background-color: rgb(104, 202, 140);
+    font-size: 24px;
+    font-weight: bold;
+}
