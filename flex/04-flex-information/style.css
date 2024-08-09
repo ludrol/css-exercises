@@ -15,7 +15,7 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
-  padding-bottom: 32px;
+  margin-bottom: 32px;
 }
 
 .flex{
@@ -32,7 +32,7 @@ img {
   flex-direction: row;
 }
 .foo{
-  width: 200px;
+  max-width: 200px;
 }
 
 /* do not edit this footer */
