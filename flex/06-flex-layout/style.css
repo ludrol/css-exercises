@@ -25,3 +25,37 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  flex: auto;
+  flex-direction: row;
+}
+
+.left-links,.right-links {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+
+
+content {
+  display: flex;
+}
+
+buttons {
+  flex: auto;
+}
+
+footer {
+  flex: auto;
+
+
+
+
+}
