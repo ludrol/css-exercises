@@ -31,10 +31,13 @@ body {
   flex-direction: column;
 }
 
-.header {
+.header,.footer{
   display: flex;
-  flex: auto;
+  flex: 1 1 1;
   flex-direction: row;
+  background-color: lightgrey;
+  flex-basis: 10%;
+
 }
 
 .left-links,.right-links {
@@ -43,14 +46,45 @@ body {
   flex: auto;
 }
 
+ul.left-links,ul.right-links{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+
+}
+
 
 content {
   display: flex;
+  flex: 100 0 auto;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+
 }
 
-buttons {
-  flex: auto;
+.image{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
 }
+
+.buttons {
+  flex: auto;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.input {
+  /* flex: auto; */
+  display: flex;
+  justify-content: center;
+  /* justify-items: center; */
+}
+
 
 footer {
   flex: auto;
